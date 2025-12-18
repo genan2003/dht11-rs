@@ -23,7 +23,6 @@ async fn main(_spawner: Spawner) {
 
     info!("Initializing DHT11...");
 
-    // Corrected: Removed Pull::Up and .degrade()
     // OutputOpenDrain::new(pin, initial_level, speed)
     let dht_pin = OutputOpenDrain::new(p.PA0, Level::High, Speed::VeryHigh);
 
