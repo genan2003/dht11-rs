@@ -22,7 +22,7 @@ This project provides a simple, `async`-native implementation for reading data f
 
 Connect the DHT11 sensor to your STM32 board as follows. A pull-up resistor (4.7kΩ to 10kΩ) is required on the data line if your sensor module does not include one.
 
-- **DHT11 VCC** → **3.3V or 5V** on the board
+- **DHT11 VCC** → **3.3V** on the board
 - **DHT11 GND** → **GND** on the board
 - **DHT11 DATA** → **PA0** on the board (or your chosen GPIO pin)
 
